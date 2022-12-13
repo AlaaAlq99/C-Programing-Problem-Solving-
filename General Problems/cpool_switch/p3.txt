@@ -1,0 +1,12 @@
+#include <stdio.h>
+void main (void){
+    int num;	
+	printf("Enter num of month :");
+    scanf ("%d",&num);
+	switch (num){
+		case 1 :
+		printf ("S31 days\n");
+		break;
+		case 2 :
+		printf ("28/29 days\n");
+		break;
